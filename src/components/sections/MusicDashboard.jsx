@@ -12,7 +12,7 @@ const MusicDashboard = () => {
       animate="show"
       variants={container}
     >
-      <div className="mt-4 bg-white px-4 sm:px-6 md:px-8 lg:px-[100px]">
+      <div className="mt-4 bg-white px-4 sm:px-6 md:px-8 container">
         <motion.h1
           variants={item}
           className="text-left text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-700 my-2"

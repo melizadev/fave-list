@@ -1,13 +1,14 @@
-import fondo from "../../../assets/fondo.jpg";
+import ImageWithPlaceholder from "../../ui/ImageLoad.jsx";
+import fondo from "../../../assets/fondo.avif";
+import fondoLow from "../../../assets/fondo-low.avif";
+
 const Banner = () => {
   return (
-    <div className="w-full h-[40vh] bg-purple-500/70">
-      <div className="relative">
-        <img className="w-full h-[40vh] object-cover" src={fondo} alt="" />
-        <p className="absolute bottom-2 text-white right-2">
-          Need to relax? Listen to a good song.
-        </p>
-      </div>
+    <div className="h-[30vh] relative">
+      <ImageWithPlaceholder lowSrc={fondoLow} src={fondo} alt="TaskFlow hero" />
+      <p className="absolute bottom-4 left-8 text-white font-bold">
+        Need to relax? Listen to a good song.
+      </p>
     </div>
   );
 };
