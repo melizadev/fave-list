@@ -2,55 +2,55 @@ import alejandro from "../assets/alejandro-sanz.jpg";
 import aurora from "../assets/aurora.jpg";
 import alex from "../assets/alex-ubago.jpg";
 import bacilos from "../assets/bacilos.jpg";
-import acustico from "../assets/acustico.jpg";
+import acustic from "../assets/acustic.jpg";
 import rock from "../assets/rock.jpg";
 import jazz from "../assets/jazz.jpg";
 import hiphop from "../assets/hip-hop.jpg";
 import reggaeton from "../assets/reggaeton.jpg";
 
-export const artistas = [
+export const artists = [
   {
-    nombre: "Alejandro Sanz",
-    descripcion: "Descripción del artista 1.",
+    name: "Alejandro Sanz",
+    description: "Descripción del artista 1.",
     img: alejandro,
   },
   {
-    nombre: "Aurora",
-    descripcion: "Descripción del artista 2.",
+    name: "Aurora",
+    description: "Descripción del artista 2.",
     img: aurora,
   },
   {
-    nombre: "Alex Ubago",
-    descripcion: "Descripción del artista 3.",
+    name: "Alex Ubago",
+    description: "Descripción del artista 3.",
     img: alex,
   },
   {
-    nombre: "Bacilos",
-    descripcion: "Descripción del artista 4.",
+    name: "Bacilos",
+    description: "Descripción del artista 4.",
     img: bacilos,
   },
 ];
 
-export const generos = [
+export const genres = [
   {
-    nombre: "acustico",
-    img: acustico,
+    name: "Acustic",
+    img: acustic,
   },
 
   {
-    nombre: "Rock",
+    name: "Rock",
     img: rock,
   },
   {
-    nombre: "Jazz",
+    name: "Jazz",
     img: jazz,
   },
   {
-    nombre: "Hip Hop",
+    name: "Hip Hop",
     img: hiphop,
   },
   {
-    nombre: "Reggaeton",
+    name: "Reggaeton",
     img: reggaeton,
   },
 ];

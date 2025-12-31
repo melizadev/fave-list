@@ -1,14 +1,14 @@
-import Banner from "../src/components/layout/Banner";
+import Banner from "./components/layout/banner/Banner";
 import "./index.css";
-import Music from "../src/components/sections/Music";
-import Header from "./components/layout/Header";
-import Footer from "./components/layout/Footer";
+import Header from "./components/layout/header/Header";
+import Footer from "./components/layout/footer/Footer";
+import MusicDashboard from "./components/sections/MusicDashboard";
 function App() {
   return (
     <>
       <Header />
       <Banner />
-      <Music />
+      <MusicDashboard />
       <Footer />
     </>
   );
