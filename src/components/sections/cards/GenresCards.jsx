@@ -18,7 +18,7 @@ const Generos = ({ index, genre }) => {
           </div>
 
           <div className="relative">
-            <h2 className="text-black font-semibold pt-1 px-2 text-base">
+            <h2 className="text-neutral-700 font-semibold pt-1 px-2 text-base">
               {genre.name}
             </h2>
             <button

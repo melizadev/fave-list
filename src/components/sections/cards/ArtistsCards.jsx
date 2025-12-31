@@ -22,13 +22,13 @@ const Artists = ({ index, artist }) => {
                 flex items-center justify-center
               "
           >
-            <p className="text-black font-medium text-center text-sm">
+            <p className="text-neutral-700 font-medium text-center text-sm">
               Show more about {artist.name}
             </p>
           </div>
         </div>
         <div className="relative">
-          <h2 className="text-black px-3 pt-1 font-semibold text-base">
+          <h2 className="text-neutral-700 px-3 pt-1 font-semibold text-base">
             {artist.name}
           </h2>
           <button

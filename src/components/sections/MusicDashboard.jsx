@@ -15,14 +15,14 @@ const MusicDashboard = () => {
       <div className="mt-4 bg-white px-4 sm:px-6 md:px-8 lg:px-[100px]">
         <motion.h1
           variants={item}
-          className="text-left text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 my-2"
+          className="text-left text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-700 my-2"
         >
           Music
         </motion.h1>
 
         <motion.h2
           variants={item}
-          className="text-black text-xl sm:text-2xl md:text-3xl font-semibold mb-2"
+          className="text-neutral-700 text-xl sm:text-2xl md:text-3xl font-semibold mb-2"
         >
           Artists
         </motion.h2>
@@ -41,7 +41,7 @@ const MusicDashboard = () => {
         <section className="mt-6">
           <motion.h2
             variants={item}
-            className="text-black text-xl sm:text-2xl md:text-3xl font-semibold mb-3"
+            className="text-neutral-700 text-xl sm:text-2xl md:text-3xl font-semibold mb-3"
           >
             Genres
           </motion.h2>
